@@ -14,6 +14,7 @@ def main():
     RED = '\033[91m'
     GREEN = '\033[92m'
     BLUE = '\033[94m'
+    YELLOW = '\033[93m'
     RESET = '\033[0m'
 
     # Check if no arguments are provided
@@ -39,12 +40,12 @@ def main():
         border = '─' * (max_length + 4)  # +4 padding
         
         # Printing upper border
-        print(border)
+        print(f"{YELLOW}{border}{RESET}")
         # Printing tasks in the list
         for i, task in enumerate(questList, start=1):
             print(f"{i}. {GREEN}{task}{RESET}")
         # Printing lower border after the tasks are listed
-        print(border)
+        print(f"{YELLOW}{border}{RESET}")
 
     # -a argument
     if args.add:
