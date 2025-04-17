@@ -4,6 +4,8 @@
 
 <img src="https://github.com/user-attachments/assets/7e53124d-b362-4fad-af00-ad03633d0ef6" alt="Something ai" width=300px>
 
+<br>
+
 ![image](https://github.com/user-attachments/assets/1dbca0a6-ca57-4292-931d-89f486a69530)
 
 ![image](https://github.com/user-attachments/assets/01fb6072-f073-44ce-991e-4b545a8ca14d)
