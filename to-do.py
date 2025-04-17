@@ -28,9 +28,20 @@ def main():
 
     # -v argument
     if args.view:
-        with open('quest_file.pkl', 'rb') as f:
-            for i, task in enumerate(pickle.load(f), start=1):
-                print(f"{i}. {GREEN}{task}{RESET}")
+        try:
+            with open('quest_file.pkl', 'rb') as f:
+                questList = pickle.load(f)
+        except (FileNotFoundError, EOFError):
+            questList = []
+
+    # Get max length of lines like "1. Task"
+        max_length = max((len(f"{i+1}. {task}") for i, task in enumerate(questList)), default=0)
+        border = '─' * (max_length + 4)  # +4 padding
+
+        print(border)
+        for i, task in enumerate(questList, start=1):
+            print(f"{i}. {GREEN}{task}{RESET}")
+        print(border)
 
     # -a argument
     if args.add:
