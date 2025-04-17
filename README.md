@@ -13,6 +13,6 @@
 
 ![image](https://github.com/user-attachments/assets/fdb7c8ee-8000-47b5-9e8a-f1d08badd5b9)
 
-## How to use
+## How To Use
 ![image](https://github.com/user-attachments/assets/ec968704-9159-48a8-9cff-b1301c0a1360)
 
