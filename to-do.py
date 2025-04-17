@@ -37,10 +37,13 @@ def main():
     # Get max length of lines like "1. Task"
         max_length = max((len(f"{i+1}. {task}") for i, task in enumerate(questList)), default=0)
         border = '─' * (max_length + 4)  # +4 padding
-
+        
+        # Printing upper border
         print(border)
+        # Printing tasks in the list
         for i, task in enumerate(questList, start=1):
             print(f"{i}. {GREEN}{task}{RESET}")
+        # Printing lower border after the tasks are listed
         print(border)
 
     # -a argument
