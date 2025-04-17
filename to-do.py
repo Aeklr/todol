@@ -8,7 +8,7 @@ def main():
     parser.add_argument('-v', '--view', help='View the active Tasks of the To-Do List', action='store_true')
     parser.add_argument('-a', '--add', help='Add a task into the To-Do List')
     parser.add_argument('-r', '--remove', help='Remove task from the To-Do List, Format: -r <Task NUMBER>')
-    parser.add_argument('-rA', '--remove-all', help='Remove all tasks from the To-Do List', action='store_true')
+    parser.add_argument('-rA', '--remove-all', help='Removes all tasks from the To-Do List', action='store_true')
 
     # Defined colors
     RED = '\033[91m'
