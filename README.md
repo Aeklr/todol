@@ -12,7 +12,6 @@
 ## Examples
 
 ![image](https://github.com/user-attachments/assets/00d86376-1582-4736-88ba-5b50d253de03)
-<br>
 
 ![image](https://github.com/user-attachments/assets/1dbca0a6-ca57-4292-931d-89f486a69530)
 
