@@ -3,7 +3,6 @@ Version: 1.0
 Section: utils
 Priority: optional
 Architecture: all
-Depends: python3, python3-termcolor
+Depends: python3 (>= 3.6), python3-termcolor (>= 1.1.0)
 Maintainer: Karel Chlup
-Description: Simple Python CLI to-do list app with persistent storage
-
+Description: Simple Python CLI to-do list app with persistent storage.
