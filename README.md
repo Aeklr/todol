@@ -13,7 +13,7 @@ Clone -> Install a package by running __sudo dpkg -i todol.deb__
    ___Note!___
 <br>
    You might need to install python3-termcolor with __sudo apt install python3-termcolor__
-<br>
+<br><br>
 <code>Arch based</code>
 <br>
 Clone -> Build a package by running __makepkg -si__
