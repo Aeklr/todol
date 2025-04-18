@@ -5,7 +5,8 @@
 <img src="https://github.com/user-attachments/assets/7e53124d-b362-4fad-af00-ad03633d0ef6" alt="Something ai" width=300px>
 
 ## Installation
-<code style="color:red;">Debian based</code>
+![Debian](https://img.shields.io/badge/Debian-red)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 <br>
 Clone -> Install a package by running <code>__sudo dpkg -i todol.deb__</code>
    After installing you can use the list globally using <code>__todol__</code>
@@ -14,7 +15,7 @@ Clone -> Install a package by running <code>__sudo dpkg -i todol.deb__</code>
 <br>
    You might need to install python3-termcolor with <code>__sudo apt install python3-termcolor__</code>
 <br><br>
-<code>Arch based</code>
+![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
 <br>
 Clone -> Build a package by running <code>__makepkg -si__</code>
    After building you can use the list globally using <code>__todol__</code>
