@@ -6,14 +6,13 @@ arch=('any')
 url="https://github.com/Aeklr/To-Do-List"
 license=('GPL-3.0-only')
 depends=('python')
-source=("to-do.py" "quest_file.pkl" "LICENSE")
-md5sums=('SKIP' 'SKIP' 'SKIP') # To be replaced
+source=("to-do.py" "LICENSE")
+md5sums=('SKIP' 'SKIP') # To be replaced
 
 package() {
 	# Files for the app
 	install -d "$pkgdir/usr/share/$pkgname"
     	install -m755 to-do.py "$pkgdir/usr/share/$pkgname/"
-    	install -m644 quest_file.pkl "$pkgdir/usr/share/$pkgname/"
 
 	# Symlink
 	install -d "$pkgdir/usr/bin"
