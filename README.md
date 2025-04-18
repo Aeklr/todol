@@ -11,6 +11,7 @@
    After installing you can use the list globally using __todol__
 <br>
 <code>Arch based</code>
+<br>
 1. Build a package by running __makepkg -si__.
    After building you can use the list globally using __todol__
    
