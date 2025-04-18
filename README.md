@@ -5,8 +5,13 @@
 <img src="https://github.com/user-attachments/assets/7e53124d-b362-4fad-af00-ad03633d0ef6" alt="Something ai" width=300px>
 
 ## Installation
-1. Simply clone the repository and run <code>__python3 to-do.py__</code>
-2. (__optional__) If you are using <code style="color : blue">Arch</code> based distro, and want to make your experience more pleasurable, You can build a package by running __makepkg -si__.
+<code>Debian based</code>
+<br>
+1. Clone -> __sudo dpkg -i todol.deb__
+   After installing you can use the list globally using __todol__
+<br>
+<code>Arch based</code>
+1. Build a package by running __makepkg -si__.
    After building you can use the list globally using __todol__
    
 ## Examples
