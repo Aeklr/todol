@@ -32,5 +32,4 @@ You can use the to-do-list without installing by running __python3 to-do.py__ in
 ![image](https://github.com/user-attachments/assets/fdb7c8ee-8000-47b5-9e8a-f1d08badd5b9)
 
 ## How To Use
-![image](https://github.com/user-attachments/assets/c03bd830-9505-4384-9211-5acce36db9b9)
-
+![image](https://github.com/user-attachments/assets/3466a504-52ea-4344-9b39-9aeebd25c851)
