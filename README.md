@@ -17,7 +17,7 @@ Clone -> Build a package by running __makepkg -si__.
 
 <code>Alternative</code>
 <br>
-You can use the to-do-list without installing running __python3 to-do.py__ in the cloned directory.
+You can use the to-do-list without installing by running __python3 to-do.py__ in the cloned directory.
    
 ## Examples
 
