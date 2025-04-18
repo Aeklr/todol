@@ -13,8 +13,9 @@
 
 ![image](https://github.com/user-attachments/assets/fdb7c8ee-8000-47b5-9e8a-f1d08badd5b9)
 
-## Installation (non-Arch)
-Simply clone the repository. Make sure that __quest_file.pkl__ is present in the same directory as the __to-do.py__.
+## Installation
+1. Simply clone the repository. Make sure that __quest_file.pkl__ is present in the same directory as the __to-do.py__.
+2. (__optional__) If you are using Arch, and make your experience more pleasing, You can build a package by running __makepkg -si__.
 
 ## How To Use
 ![image](https://github.com/user-attachments/assets/c03bd830-9505-4384-9211-5acce36db9b9)
