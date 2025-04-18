@@ -7,7 +7,7 @@
 ## Installation
 <code>Debian based</code>
 <br>
-Clone -> Install a package by running __sudo dpkg -i todol.deb__
+Clone -> Install a package by running __sudo dpkg -i todol.deb__.
    After installing you can use the list globally using __todol__
 
 <code>Arch based</code>
