@@ -10,7 +10,7 @@
 1. Clone -> __sudo dpkg -i todol.deb__
    After installing you can use the list globally using __todol__
 
-<code>$${\color{blue}Arch Based}$$</code>
+<code>Arch Based</code>
 <br>
 1. Build a package by running __makepkg -si__.
    After building you can use the list globally using __todol__
