@@ -8,10 +8,12 @@
 1. Simply clone the repository and run <code>__python3 to-do.py__</code>
 2. (__optional__) If you are using <code style="color : blue">Arch</code> based distro, and want to make your experience more pleasurable, You can build a package by running __makepkg -si__.
    After building you can use the list globally using __todol__
-   <br>
-   ![image](https://github.com/user-attachments/assets/00d86376-1582-4736-88ba-5b50d253de03)
-
+   
 ## Examples
+
+![image](https://github.com/user-attachments/assets/00d86376-1582-4736-88ba-5b50d253de03)
+<br>
+
 ![image](https://github.com/user-attachments/assets/1dbca0a6-ca57-4292-931d-89f486a69530)
 
 ![image](https://github.com/user-attachments/assets/01fb6072-f073-44ce-991e-4b545a8ca14d)
