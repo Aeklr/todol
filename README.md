@@ -7,12 +7,12 @@
 ## Installation
 <code>Debian based</code>
 <br>
-1. Clone -> __sudo dpkg -i todol.deb__
+1. Clone -> Install a package by running __sudo dpkg -i todol.deb__
    After installing you can use the list globally using __todol__
 
 <code>Arch based</code>
 <br>
-1. Build a package by running __makepkg -si__.
+1. Clone -> Build a package by running __makepkg -si__.
    After building you can use the list globally using __todol__
 
 <code>Alternative</code>
