@@ -10,10 +10,14 @@
 1. Clone -> __sudo dpkg -i todol.deb__
    After installing you can use the list globally using __todol__
 
-<code>Arch based</code>
+<code>$${\color{blue}Arch Based}$$</code>
 <br>
 1. Build a package by running __makepkg -si__.
    After building you can use the list globally using __todol__
+
+<code>Alternative</code>
+<br>
+1. You can use the to-do-list without installing running __python3 to-do.py__ in the cloned directory.
    
 ## Examples
 
