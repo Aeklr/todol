@@ -5,7 +5,7 @@ pkgdesc="Simple Python CLI to-do list app with persistent storage"
 arch=('any')
 url="https://github.com/Aeklr/todol"
 license=('GPL-3.0-only')
-depends=('python')
+depends=('python' 'python-termcolor')
 source=("to-do.py" "LICENSE")
 md5sums=('SKIP' 'SKIP') # To be replaced
 
