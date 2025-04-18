@@ -17,7 +17,7 @@
 1. Simply clone the repository and run __python3 to-do.py__
 2. (__optional__) If you are using Arch, and want to make your experience more pleasurable, You can build a package by running __makepkg -si__.
    After building you can use the list globally using __todol__
-2.1 ![image](https://github.com/user-attachments/assets/e7b2f1ed-5940-47b1-b6ac-5a62c083e71b)
+   ![image](https://github.com/user-attachments/assets/e7b2f1ed-5940-47b1-b6ac-5a62c083e71b)
 
 ## How To Use
 ![image](https://github.com/user-attachments/assets/c03bd830-9505-4384-9211-5acce36db9b9)
