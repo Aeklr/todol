@@ -1,7 +1,13 @@
+#!/usr/bin/env python3
 import argparse
 import pickle
 import sys
+import os
 from termcolor import colored # Imported colored for colored output
+
+data_path = os.path.expanduser("~/.local/share/todol")
+os.makedirs(data_path, exist_ok=True)
+pkl_path = os.path.join(data_path, "quest_file.pkl")
 
 def main():
     parser = argparse.ArgumentParser(description="Simple To-Do List")
@@ -30,7 +36,7 @@ def main():
     # -v argument
     if args.view:
         try:
-            with open('quest_file.pkl', 'rb') as f:
+            with open(pkl_path, 'rb') as f:
                 questList = pickle.load(f)
         except (FileNotFoundError, EOFError):
             questList = []
@@ -50,21 +56,21 @@ def main():
     # -a argument
     if args.add:
         try:
-            with open('quest_file.pkl', 'rb') as f:
+            with open(pkl_path, 'rb') as f:
                 questList = pickle.load(f)
         except (FileNotFoundError, EOFError):
             questList = []
 
         questList.append(args.add)
 
-        with open('quest_file.pkl', 'wb') as f:
+        with open(pkl_path, 'wb') as f:
             pickle.dump(questList, f)
             print(f"Added: {BLUE}{args.add}{RESET} To the list.")
 
     # -r argument
     if args.remove:
         try:
-            with open('quest_file.pkl', 'rb') as f:
+            with open(pkl_path, 'rb') as f:
                 questList = pickle.load(f)
         except (FileNotFoundError, EOFError):
             questList = []
@@ -78,13 +84,13 @@ def main():
                 print("Invalid task number.")
         except ValueError: # Invalid task number handeling
             print("Please enter a valid task number.")
-        with open('quest_file.pkl', 'wb') as f:
+        with open(pkl_path, 'wb') as f:
             pickle.dump(questList, f)
 
     # -rA argument
     if args.remove_all:
         try:
-            with open('quest_file.pkl', 'rb') as f:
+            with open(pkl_path, 'rb') as f:
                 questList = pickle.load(f)
         except (FileNotFoundError, EOFError):
             questList = []
@@ -92,7 +98,7 @@ def main():
         questList.clear()  # Clear all tasks
         print(f"{RED}All tasks have been removed.{RESET}")
 
-        with open('quest_file.pkl', 'wb') as f:
+        with open(pkl_path, 'wb') as f:
             pickle.dump(questList, f)
 
 if __name__ == "__main__":
