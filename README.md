@@ -25,6 +25,8 @@ You can use the to-do-list without installing by running __python3 to-do.py__ in
 
 ![image](https://github.com/user-attachments/assets/1dbca0a6-ca57-4292-931d-89f486a69530)
 
+![image](https://github.com/user-attachments/assets/17f61730-72ab-47c2-b61e-ef6fd15e4269)
+
 ![image](https://github.com/user-attachments/assets/01fb6072-f073-44ce-991e-4b545a8ca14d)
 
 ![image](https://github.com/user-attachments/assets/ea944eb9-1b08-41e7-a02e-cd64421724a8)
