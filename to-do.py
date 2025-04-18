@@ -23,7 +23,7 @@ def main():
     YELLOW = '\033[93m'
     RESET = '\033[0m'
 
-    # Check if no arguments are provided
+    # Check if none arguments are provided
     if len(sys.argv) == 1:
         parser.print_help()
         return
