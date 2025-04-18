@@ -10,7 +10,7 @@
 Clone -> Install a package by running __sudo dpkg -i todol.deb__
    After installing you can use the list globally using __todol__
 <br>
-   Note!
+   ___Note!___
 <br>
    You might need to install python3-termcolor with __sudo apt install python3-termcolor__
 <code>Arch based</code>
