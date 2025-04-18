@@ -5,7 +5,7 @@
 <img src="https://github.com/user-attachments/assets/7e53124d-b362-4fad-af00-ad03633d0ef6" alt="Something ai" width=300px>
 
 ## Installation
-<code>Debian based</code>
+<code style="color:red;">Debian based</code>
 <br>
 Clone -> Install a package by running <code>__sudo dpkg -i todol.deb__</code>
    After installing you can use the list globally using <code>__todol__</code>
@@ -21,7 +21,7 @@ Clone -> Build a package by running <code>__makepkg -si__</code>
 
 <code>Alternative</code>
 <br>
-You can use the to-do-list without installing by running <code>__python3 to-do.py__</code> in the cloned directory.
+You can use the to-do-list without installing by running <code>__python3 to-do.py__</code> in the cloned directory
    
 ## Examples
 
