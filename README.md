@@ -7,21 +7,21 @@
 ## Installation
 <code>Debian based</code>
 <br>
-Clone -> Install a package by running __sudo dpkg -i todol.deb__
-   After installing you can use the list globally using __todol__
+Clone -> Install a package by running <code>__sudo dpkg -i todol.deb__</code>
+   After installing you can use the list globally using <code>__todol__</code>
 <br>
    ___Note!___
 <br>
-   You might need to install python3-termcolor with __sudo apt install python3-termcolor__
+   You might need to install python3-termcolor with <code>__sudo apt install python3-termcolor__</code>
 <br><br>
 <code>Arch based</code>
 <br>
-Clone -> Build a package by running __makepkg -si__
-   After building you can use the list globally using __todol__
+Clone -> Build a package by running <code>__makepkg -si__</code>
+   After building you can use the list globally using <code>__todol__</code>
 
 <code>Alternative</code>
 <br>
-You can use the to-do-list without installing by running __python3 to-do.py__ in the cloned directory.
+You can use the to-do-list without installing by running <code>__python3 to-do.py__</code> in the cloned directory.
    
 ## Examples
 
