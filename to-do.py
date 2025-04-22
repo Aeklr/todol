@@ -65,7 +65,7 @@ def main():
 
         with open(pkl_path, 'wb') as f:
             pickle.dump(questList, f)
-            print(f"Added: {BLUE}{args.add}{RESET} To the list.")
+            print(f"[+]Added: {BLUE}{args.add}{RESET} To the list.")
 
     # -r argument
     if args.remove:
@@ -79,7 +79,7 @@ def main():
             index = int(args.remove) - 1
             if 0 <= index < len(questList):
                 removed = questList.pop(index)
-                print(f"Removed: {RED}{removed}{RESET}.")
+                print(f"[-]Removed: {RED}{removed}{RESET}.")
             else:
                 print("Invalid task number.")
         except ValueError: # Invalid task number handeling
@@ -96,7 +96,7 @@ def main():
             questList = []
 
         questList.clear()  # Clear all tasks
-        print(f"{RED}All tasks have been removed.{RESET}")
+        print(f"[-]{RED}All tasks have been removed.{RESET}")
 
         with open(pkl_path, 'wb') as f:
             pickle.dump(questList, f)
