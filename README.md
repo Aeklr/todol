@@ -24,7 +24,9 @@ Clone -> Build a package by running <code>__makepkg -si__</code>
 <br>
 Clone -> Navigate to the <code>todol-electron</code> file and open the Todol.exe
 <br>
-___Note!___ Tasks are stored in the <code>C:\Users\<USER>\AppData\Roaming\todo-electron\tasks.json</code> file
+___Note!___ 
+<br>
+Tasks are stored in the <code>C:\Users\<USER>\AppData\Roaming\todo-electron\tasks.json</code> file
 
 <code>Alternative</code>
 <br>
