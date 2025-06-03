@@ -20,6 +20,12 @@ Clone -> Install a package by running <code>__sudo dpkg -i todol.deb__</code>
 Clone -> Build a package by running <code>__makepkg -si__</code>
    After building you can use the list globally using <code>__todol__</code>
 
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+<br>
+Clone -> Navigate to the <code>todol-electron</code> file and open the Todol.exe
+<br>
+___Note!___ Tasks are stored in the <code>C:\Users\<USER>\AppData\Roaming\todo-electron\tasks.json</code> file
+
 <code>Alternative</code>
 <br>
 You can use the to-do-list without installing by running <code>__python3 to-do.py__</code> in the cloned directory
