@@ -26,7 +26,7 @@ Clone -> Navigate to the <code>todol-electron</code> file and open the Todol.exe
 <br>
 ___Note!___ 
 <br>
-Tasks are stored in the <code>C:\Users\\<USER>\AppData\Roaming\todo-electron\tasks.json</code> file
+Tasks are stored in the <code>C:\Users\\$USER>\AppData\Roaming\todo-electron\tasks.json</code> file
 
 <code>Alternative</code>
 <br>
