@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Jersey+10&display=swap');
+
+.mode-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 24px;
+  background: white;
+  color: black;
+  border: 2px solid #999;
+  border-radius: 50%;
+  padding: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+body.dark {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
+
+body.dark input,
+body.dark select,
+body.dark button {
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+
+body.dark li.low { background-color: #325b32; }
+body.dark li.mid { background-color: #5c540d; }
+body.dark li.high { background-color: #5b2c2c; }
+
+body.dark .delete-btn {
+  background: #ff7777;
+}
+
+body {
+  font-family: "sans-serif;", cursive;
+  text-align: center;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Jersey 10", sans-serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  margin: 10px auto;
+  padding: 10px 40px 10px 10px;
+  width: 70%;
+  border-radius: 10px;
+  text-align: left;
+  transition: 0.2s;
+  cursor: default;
+  font-size: 18px;
+}
+
+li.low { background-color: #d4fcd4; }
+li.mid { background-color: #fff6d1; }
+li.high { background-color: #fcd4d4; }
+
+li:hover .delete-btn {
+  opacity: 1;
+}
+
+.delete-btn {
+  background-color: #ff7777;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+
+li:hover .delete-btn {
+  display: inline-block;
+}
+
