@@ -4,8 +4,16 @@
 
 <img src="https://github.com/user-attachments/assets/7e53124d-b362-4fad-af00-ad03633d0ef6" alt="Something ai" width=300px>
 
+## Contents
+- [Debian Ubuntu](#debian-ubuntu)
+- [Arch](#arch)
+- [Windows](#windows)
+- [Alternative Usage](#alternative-usage)
+
+---
+
 ## Installation
-### Debian / Ubuntu
+### Debian Ubuntu
 ![Debian](https://img.shields.io/badge/Debian-C81D25?style=for-the-badge&logo=debian&logoColor=white)
 <br>
 Clone the repo and install the package by running:
