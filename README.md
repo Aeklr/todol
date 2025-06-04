@@ -9,6 +9,7 @@
 - [Arch](#arch)
 - [Windows](#windows)
 - [Alternative Usage](#alternative-usage)
+- [Parameters](#parameters)
 
 ## Installation
 
@@ -87,5 +88,5 @@ from the cloned directory.
 
 ![image](https://github.com/user-attachments/assets/fdb7c8ee-8000-47b5-9e8a-f1d08badd5b9)
 
-## How To Use
+## Parameters
 ![image](https://github.com/user-attachments/assets/3466a504-52ea-4344-9b39-9aeebd25c851)
