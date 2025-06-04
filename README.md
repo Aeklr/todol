@@ -1,4 +1,4 @@
-# To-Do-List
+# Todol
 
 ### Have you ever wanted to keep track of your tasks in the terminal? ...Yeah, me neither.
 
