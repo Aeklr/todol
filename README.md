@@ -6,7 +6,6 @@
 
 ## Installation
 ![Debian](https://img.shields.io/badge/Debian-red)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 <br>
 Clone -> Install a package by running <code>__sudo dpkg -i todol.deb__</code>
    After installing you can use the list globally using <code>__todol__</code>
