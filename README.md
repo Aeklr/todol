@@ -64,7 +64,6 @@ Clone the repo, navigate to the <code>todol-app/dist/</code> folder, and open To
 ---
 
 ## Alternative Usage
-
 You can use the to-do list without installing by running:
 
 ```bash
