@@ -73,7 +73,12 @@ python3 to-do.py
 from the cloned directory.
 
 ---
-   
+
+## Parameters
+![image](https://github.com/user-attachments/assets/3466a504-52ea-4344-9b39-9aeebd25c851)
+
+---
+
 ## Examples
 
 ![image](https://github.com/user-attachments/assets/00d86376-1582-4736-88ba-5b50d253de03)
@@ -87,6 +92,3 @@ from the cloned directory.
 ![image](https://github.com/user-attachments/assets/ea944eb9-1b08-41e7-a02e-cd64421724a8)
 
 ![image](https://github.com/user-attachments/assets/fdb7c8ee-8000-47b5-9e8a-f1d08badd5b9)
-
-## Parameters
-![image](https://github.com/user-attachments/assets/3466a504-52ea-4344-9b39-9aeebd25c851)
