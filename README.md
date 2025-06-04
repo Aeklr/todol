@@ -10,9 +10,10 @@
 - [Windows](#windows)
 - [Alternative Usage](#alternative-usage)
 
+## Installation
+
 ---
 
-## Installation
 ### Debian Ubuntu
 ![Debian](https://img.shields.io/badge/Debian-C81D25?style=for-the-badge&logo=debian&logoColor=white)
 <br>
