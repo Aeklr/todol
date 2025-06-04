@@ -59,8 +59,10 @@ todol
 ### Windows
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 <br>
+For Windows users, there's a GUI version of the app built with Tkinter and Eel included in the repo.
+<br><br>
 Clone the repo, navigate to the <code>todol-app/dist/</code> folder, and open Todol.exe.
-
+   
 ---
 
 ## Alternative Usage
