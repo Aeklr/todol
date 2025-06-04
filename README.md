@@ -5,27 +5,54 @@
 <img src="https://github.com/user-attachments/assets/7e53124d-b362-4fad-af00-ad03633d0ef6" alt="Something ai" width=300px>
 
 ## Installation
+### Debian / Ubuntu
 ![Debian](https://img.shields.io/badge/Debian-C81D25?style=for-the-badge&logo=debian&logoColor=white)
 <br>
-Clone -> Install a package by running <code>__sudo dpkg -i todol.deb__</code>
-   After installing you can use the list globally using <code>__todol__</code>
+Clone the repo and install the package by running:
+```bash
+sudo dpkg -i todol.deb
+```
+   After installation, you can run the to-do list globally using:
+```bash
+todol
+```
+
 <br><br>
    ___Note!___
 <br>
-   You might need to install python3-termcolor with <code>__sudo apt install python3-termcolor__</code> before running<br><code>__sudo dpkg -i todol.deb__</code>
+   You might need to install the <code>python3-termcolor</code> package before running the above command:
+```bash
+sudo apt install python3-termcolor
+```
+before running:<br>
+```bash
+sudo dpkg -i todol.deb
+```
 <br><br>
 ![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
 <br>
-Clone -> Build a package by running <code>__makepkg -si__</code>
-   After building you can use the list globally using <code>__todol__</code>
+Clone the repo and build the package by running:
+```bash
+makepkg -si
+```
+After building you can use the list globally using:
+```bash
+todol
+```
+<br>
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 <br>
-Clone -> Navigate to the <code>todol-app/dist/</code> folder and open the Todol.exe
+Clone the repo, navigate to the <code>todol-app/dist/</code> folder, and open Todol.exe.
 
-<code>Alternative</code>
-<br>
-You can use the to-do-list without installing by running <code>__python3 to-do.py__</code> in the cloned directory
+## Alternative Usage
+
+You can use the to-do list without installing by running:
+
+```bash
+python3 to-do.py
+```
+from the cloned directory.
    
 ## Examples
 
