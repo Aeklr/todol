@@ -10,7 +10,7 @@
 <br>
 Clone -> Install a package by running <code>__sudo dpkg -i todol.deb__</code>
    After installing you can use the list globally using <code>__todol__</code>
-<br>
+<br><br>
    ___Note!___
 <br>
    You might need to install python3-termcolor with <code>__sudo apt install python3-termcolor__</code> before running<br><code>__sudo dpkg -i todol.deb__</code>
