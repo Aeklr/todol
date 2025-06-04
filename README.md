@@ -40,7 +40,6 @@ sudo dpkg -i todol.deb
 
 ---
 
-<br><br>
 ### Arch
 ![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
 <br>
