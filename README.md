@@ -36,6 +36,9 @@ before running:<br>
 ```bash
 sudo dpkg -i todol.deb
 ```
+
+---
+
 <br><br>
 ### Arch
 ![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
@@ -50,10 +53,14 @@ todol
 ```
 <br>
 
+---
+
 ### Windows
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 <br>
 Clone the repo, navigate to the <code>todol-app/dist/</code> folder, and open Todol.exe.
+
+---
 
 ## Alternative Usage
 
@@ -63,6 +70,8 @@ You can use the to-do list without installing by running:
 python3 to-do.py
 ```
 from the cloned directory.
+
+---
    
 ## Examples
 
