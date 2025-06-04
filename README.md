@@ -29,6 +29,7 @@ before running:<br>
 sudo dpkg -i todol.deb
 ```
 <br><br>
+### Arch
 ![Arch](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
 <br>
 Clone the repo and build the package by running:
@@ -41,6 +42,7 @@ todol
 ```
 <br>
 
+### Windows
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 <br>
 Clone the repo, navigate to the <code>todol-app/dist/</code> folder, and open Todol.exe.
