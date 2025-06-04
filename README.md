@@ -22,11 +22,7 @@ Clone -> Build a package by running <code>__makepkg -si__</code>
 
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 <br>
-Clone -> Navigate to the <code>todol-electron</code> file and open the Todol.exe
-<br>
-___Note!___ 
-<br>
-Tasks are stored in the <code>C:\Users\\$USER\AppData\Roaming\todo-electron\tasks.json</code> file
+Clone -> Navigate to the <code>todol-app/dist/</code> folder and open the Todol.exe
 
 <code>Alternative</code>
 <br>
