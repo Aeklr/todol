@@ -5,7 +5,7 @@
 <img src="https://github.com/user-attachments/assets/7e53124d-b362-4fad-af00-ad03633d0ef6" alt="Something ai" width=300px>
 
 ## Installation
-![Debian](https://img.shields.io/badge/Debian-red)
+![Debian](https://img.shields.io/badge/Debian-C81D25?style=for-the-badge&logo=debian&logoColor=white)
 <br>
 Clone -> Install a package by running <code>__sudo dpkg -i todol.deb__</code>
    After installing you can use the list globally using <code>__todol__</code>
